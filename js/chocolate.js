@@ -54,9 +54,3 @@ $(function() {
     // 调用气泡方法
     bubble();
 })
-
-
-
-
-<script src="https://blog-static.cnblogs.com/files/zouwangblog/mouse-click.js"></script>
-<canvas width="1777" height="841" style="position: fixed; left: 0px; top: 0px; z-index: 999; pointer-events: none;"></canvas>

@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>CSP-S 2020 初赛 做题笔记</title>
+      <link href="/post/5f05d97.html"/>
+      <url>/post/5f05d97.html</url>
+      
+        <content type="html"><![CDATA[<ol><li><p>请选出以下最大的数（ ）。</p><p>A.$(550)_{10}$ B.$(777)_{8}$ C.$2^{10}$ D.$(22F)_{16}$</p><blockquote><p>B 的十进制数是 $511$，C 的十进制数是 $1024$，D 的十进制数是 $559$。</p><p>最大数为 $1024$，选 $C$。</p></blockquote></li><li><p>操作系统的功能是（ ）</p><p>A.负责外设与主机之间的信息交换</p><p>B.控制和管理计算机系统的各种硬件和软件资源的使用</p><p>C.负责诊断机器的故障</p><p>D.将源程序编译成目标程序</p><blockquote><p>显然答案为 $B$。</p></blockquote></li><li><p>现有一段 $8$ 分钟的视频文件，它的播放速度是每秒 $24$ 帧图像，每帧图像是 一幅分辨率为 $2048\times 1024$ 像素的 $32$ 位真彩色图像。请问要存储这段原始无压缩视频，需要多大的存储空间？（ ）。</p><p>A.$30G$ B.$90G$ C.$150G$ D.$450G$</p><blockquote><p>$8\times 60\times 24\times 2048\times 1024\times 32\div 8\div 1024\div 1024\div 1024=90$</p><p>答案为 $B$。</p></blockquote></li><li><p>今有一空栈 $S$，对下列待进栈的数据元素序列 $a,b,c,d,e,f$ 依次进行：进栈，进栈，出栈，进栈，进栈，出栈的操作，则此操作完成后，栈底元素为（ ）。</p><p>A.$b$ B.$a$ C.$d$ D.$c$</p><blockquote><p>模拟一下就会发现答案为 $B$。</p></blockquote></li><li><p>将 $(2, 7, 10, 18)$ 分别存储到某个地址区间为 $0\sim 10$ 的哈希表中，如果哈希函数 $h(x)=(\,\,\,)$，将不会产生冲突，其中 $a \bmod b$ 表示 $a$ 除以 $b$ 的余数。</p><p>A.$x^2 \bmod{11}$</p><p>B.$2\times x \bmod{11}$</p><p>C.$x \bmod{11}$</p><p>D.$\lfloor \dfrac{x}{2} \rfloor \bmod{11}$，其中 $\lfloor \dfrac{x}{2} \rfloor$ 表示 $\dfrac{x}{2}$ 下取整</p><blockquote><p>同样模拟一下就会发现答案为 $D$。</p></blockquote></li><li><p>下列哪些问题不能用贪心法精确求解？（ ）</p><p>A.霍夫曼编码问题</p><p>B.$0-1$ 背包问题</p><p>C.最小生成树问题</p><p>D.单源最短路径问题</p><blockquote><p>$0-1$ 背包是 $\texttt{DP}$，显然不能用贪心求解，选 $B$。</p></blockquote></li><li><p>具有 $n$ 个顶点，$e$ 条边的图采用邻接表存储结构，进行深度优先遍历运算的时间复杂度为（ ）。</p><p>A.$O(n+e)$</p><p>B.$O(n^2)$</p><p>C.$O(e^2)$</p><p>D.$O(n)$</p><blockquote><p>$\texttt{DFS}$ 一遍是将所有点和边都遍历<strong>一次</strong>，所以时间复杂度为 $O(n+e)$，选 $A$。</p></blockquote></li><li><p>二分图是指能将顶点划分成两个部分，每一部分内的顶点间没有边相连的简单无向图。那么，$24$ 个顶点的二分图至多有（ ）条边。</p><p>A.$144$ B.$100$ C.$48$ D.$122$</p><blockquote><p>$24$ 个顶点的二分图，每一边都有 $12$ 个点时 $12\times 12=144$ 最大，选 $A$。</p></blockquote></li><li><p>广度优先搜索时，一定需要用到的数据结构是( )</p><p>A.栈 B.二叉树 C.队列 D.哈希表</p><blockquote><p>$\texttt{BFS}$ 要用到队列，选 $C$。</p></blockquote></li><li><p>—个班学生分组做游戏，如果每组三人就多两人，每组五人就多三人，每组七人就多四人，问这个班的学生人数 $n$ 在以下哪个区间？已知 $n&lt;60$。( ）</p><p>A.$30&lt;n&lt;40$</p><p>B.$40&lt;n&lt;50$</p><p>C.$50&lt;n&lt;60$</p><p>D.$20&lt;n&lt;30$</p><blockquote><p>用中国剩余定理可知 $n=53$，选 $C$。</p></blockquote></li><li><p>小明想通过走楼梯来锻炼身体，假设从第 $1$ 层走到第 $2$ 层消耗 $10$ 卡热量，接着从第 $2$ 层走到第 $3$ 层消耗 $20$ 卡热量，再从第 $3$ 层走到第 $4$ 层消耗 $30$ 卡热量，依此类推，从第 $k$ 层走到第 $k+1$ 层消耗 $10k$ 卡热量 $(k&gt;1)$？如果小明想从 $1$ 层开始，通过连续向上爬楼梯消耗 $1000$ 卡热量，至少要爬到第几层楼？ （ ）。</p><p>A.$14$ B.$16$ C.$15$ D.$13$</p><blockquote><p>小学奥数题，答案为 $C$。</p></blockquote></li><li><p>表达式 <code>a*(b+c)-d</code> 的后缀表达形式为（ ）。</p><p>A.$\texttt{abc*+d-}$</p><p>B.$\texttt{-+*abcd}$</p><p>C.$\texttt{abcd*+-}$</p><p>D.$\texttt{abc+*d-}$</p><blockquote><p>如下图：</p><p><img src="https://img.gejiba.com/images/1c90934e95bc073e12c3fa609eebeefa.png" alt=""></p><p>后缀形式为 <code>abc+*d-</code>，选 $D$。</p></blockquote></li><li><p>从一个 $4 \times 4$ 的棋盘中选取不在同一行也不在同一列上的两个方格，共有（ ）种方法。</p><p>A.$60$ B.$72$ C.$86$ D.$64$</p><blockquote><p>第一个方格有 $4\times 4$ 种选法，第二个方格有 $3\times 3$ 种选法，因为会重复计算，所以答案为 $4\times 4\times 3\times 3\div 2=72$ 种，选 $B$。</p></blockquote></li><li><p>对一个 $n$ 个顶点、$m$ 条边的带权有向简单图用 $\texttt{Dijkstra}$ 算法计算单源最短路时，如果不使用堆或其它优先队列进行优化，则其时间复杂度为（ ）。</p><p>A.$O((m + n^{2}) \log n)$</p><p>B.$O(mn + n^{3})$</p><p>C.$O((m + n) \log n)$</p><p>D.$O(n^{2})$</p><blockquote><p>注意是没有优化的 $\texttt{Dijkstra}$，所以时间复杂度为 $O(n^{2})$，选 $D$。</p></blockquote></li><li><p>1948 年，（ ）将热力学中的熵引入信息通信领域，标志着信息论研究的开端。</p><p>A.欧拉(Leonhard Euler)</p><p>B.冯·诺伊曼(John von Neumann)</p><p>C.克劳德·香农(Claude Shannon)</p><p>D.图灵(Alan Turing)</p><blockquote><p>答案为 $C$。</p></blockquote></li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> CSP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>斜率优化 学习笔记</title>
       <link href="/post/f0a9145e.html"/>
       <url>/post/f0a9145e.html</url>
